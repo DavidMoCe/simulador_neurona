@@ -19,30 +19,35 @@ st.header("Elige el número de entradas/pesos que tendrá la neurona")
 
 numero =  st.slider("Elige el número de entradas/pesos", 1, 10, step=1, key="numero")
 
+columnas = st.columns(numero)
+
 st.subheader("Pesos")
-cols_pesos = st.columns(numero)
 pesos = []
-for i , col in enumerate(cols_pesos):
+for i , col in enumerate(columnas):
     with col:
         peso = st.number_input(f"w_{i}", key=f"w_{i}")
         pesos.append(peso)
 
 st.subheader("Entradas")
+entradas = []
+for i , col in enumerate(columnas):
+    with col:
+        entrada = st.number_input(f"x_{i}", key=f"x_{i}")
+        entradas.append(entrada)
 
-for i in range (0, numero):
-    entradas = []
-    entrada = st.number_input(f"x_{i}", key=f"x_{i}")
-    entradas.append(entrada)
 
 
-st.subheader("Sesgo")
-sesgo = st.number_input("sesgo", key="sesgo")
-
-st.subheader("Selecciona la función de activación")
-funcion_activacion = st.selectbox(
-    "Función de activación",
-    ["Sigmoide", "ReLU", "Tangente Hiperbólica"]
-)
+col_func, col_sesgo = st.columns(2)
+with col_sesgo:
+    st.subheader("Sesgo")
+    sesgo = st.number_input("sesgo", key="sesgo")
+    
+with col_func:
+    st.subheader("Selecciona la función de activación")
+    funcion_activacion = st.selectbox(
+        "Función de activación",
+        ["Sigmoide", "ReLU", "Tangente Hiperbólica"]
+    )
 
 if st.button("Calcular salida"):
     cuenta = np.dot(pesos, entradas) + sesgo

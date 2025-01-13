@@ -38,7 +38,7 @@ for i , col in enumerate(cols_entrada):
 
 
 
-col_func, col_sesgo = st.columns(2)
+col_sesgo, col_func = st.columns(2)
 with col_sesgo:
     st.subheader("Sesgo")
     sesgo = st.number_input("sesgo", key="sesgo")

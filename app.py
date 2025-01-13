@@ -33,8 +33,9 @@ st.subheader("Entradas")
 entradas = []
 cols_entrada = st.columns(numero)
 for i , col in enumerate(cols_entrada):
+    st.markdown(f"x<sub>{i}</sub>", unsafe_allow_html=True)
     with col:
-        entrada = st.number_input(f"x_{i}", key=f"x_{i}")
+        entrada = st.number_input("", key=f"x_{i}")
         entradas.append(entrada)
 
 st.write(f"x = {entradas}")

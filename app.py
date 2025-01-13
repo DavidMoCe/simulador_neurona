@@ -26,7 +26,7 @@ for i , col in enumerate(cols_pesos):
         peso = st.number_input(f"w_{i}", key=f"w_{i}")
         pesos.append(peso)
 
-st.write(pesos)
+st.write(f"{pesos}")
 
 st.subheader("Entradas")
 entradas = []
@@ -36,7 +36,7 @@ for i , col in enumerate(cols_entrada):
         entrada = st.number_input(f"x_{i}", key=f"x_{i}")
         entradas.append(entrada)
 
-st.write(entradas)
+st.write(f"{entradas}")
 
 col_sesgo, col_func = st.columns(2)
 with col_sesgo:

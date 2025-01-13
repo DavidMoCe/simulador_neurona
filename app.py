@@ -17,7 +17,7 @@ def tangente_hiperbolica(x):
 
 st.header("Elige el número de entradas/pesos que tendrá la neurona")
 
-numero =  st.slider(1, 10, step=1, key="numero")
+numero =  st.slider("Elige el número de entradas/pesos", 1, 10, step=1, key="numero")
 
 st.subheader("Pesos")
 

@@ -32,27 +32,27 @@ The simulator offers three activation functions:
 1. **Sigmoid**:
    The sigmoid function is defined as:
 
-    $$ 
+    $`
    \sigma(x) = \frac{1}{1 + e^{-x}}
-   $$
+   `$
    
    Where \(e\) is Euler's constant, and the function transforms any input value into a value between 0 and 1.
    
-2. **ReLU** (Rectified Linear Unit):
+3. **ReLU** (Rectified Linear Unit):
    The ReLU function is defined as:
 
-   $$ 
+   $`
    \text{ReLU}(x) = \max(0, x)
-   $$ 
+   `$
    
    This function returns the value of \(x\) if it is positive, and 0 if it is negative.
    
-3. **Hyperbolic Tangent**:
+4. **Hyperbolic Tangent**:
    The hyperbolic tangent function is defined as:
 
-   $$ 
+   $`
    \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
-   $$
+   `$
    
    This function transforms any input value into a value between -1 and 1.
    
@@ -107,27 +107,27 @@ El simulador ofrece tres funciones de activación:
 1. **Sigmoide**:
    La función sigmoide se define como:
 
-    $$ 
+    $`
    \sigma(x) = \frac{1}{1 + e^{-x}}
-   $$
+   `$
    
    Donde \(e\) es la constante de Euler, y la función transforma cualquier valor de entrada en un valor entre 0 y 1.
    
-2. **ReLU** (Rectified Linear Unit):
+3. **ReLU** (Rectified Linear Unit):
    La función ReLU se define como:
 
-   $$ 
+   $`
    \text{ReLU}(x) = \max(0, x)
-   $$ 
+   `$ 
    
    Esta función devuelve el valor de \(x\) si es positivo, y 0 si es negativo.
    
-3. **Tangente Hiperbólica**:
+4. **Tangente Hiperbólica**:
    La función tangente hiperbólica se define como:
 
-   $$ 
+   $`
    \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
-   $$
+   `$
    
    Esta función transforma cualquier valor de entrada en un valor entre -1 y 1.
    

@@ -24,14 +24,14 @@ cols_pesos = st.columns(numero)
 
 for i, col in enumerate(cols_pesos):
     pesos = []
-    peso = st.number_input(f"w_{i}", key=f"w_{i}")
+    peso = st.number_input(f"w_{i}", key=f"w_{i}", label_visibility="collapsed")
     pesos.append(peso)
 
 st.subheader("Entradas")
 
 for i in range (0, numero):
     entradas = []
-    entrada = st.number_input(f"x_{i}", key=f"x_{i}")
+    entrada = st.number_input(f"x_{i}", key=f"x_{i}", label_visibility="collapsed")
     entradas.append(entrada)
 
 

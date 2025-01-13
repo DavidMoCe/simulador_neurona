@@ -24,7 +24,7 @@ cols_pesos = st.columns(numero)
 for i , col in enumerate(cols_pesos):
     with col:
         st.markdown(f"w<sub>{i}</sub>", unsafe_allow_html=True)
-        peso = st.number_input(key=f"w_{i}")
+        peso = st.number_input("", key=f"w_{i}")
         pesos.append(peso)
 
 st.write(f"w = {pesos}")

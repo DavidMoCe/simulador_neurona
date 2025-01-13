@@ -20,11 +20,12 @@ st.header("Elige el número de entradas/pesos que tendrá la neurona")
 numero =  st.slider("Elige el número de entradas/pesos", 1, 10, step=1, key="numero")
 
 st.subheader("Pesos")
-
-for i in range (0, numero):
-    pesos = []
-    peso = st.number_input(f"w_{i}", key=f"w_{i}")
-    pesos.append(peso)
+cols_pesos = st.columns(numero)
+pesos = []
+for i , col in enumerate(cols_pesos):
+    with col:
+        peso = st.number_input(f"w_{i}", key=f"w_{i}")
+        pesos.append(peso)
 
 st.subheader("Entradas")
 

@@ -6,6 +6,11 @@
 
 ---
 
+## Project URL
+
+You can access the project at the following URL:  
+[**Neuron Simulator URL**](https://simuladorneurona-david.streamlit.app/)
+
 ## English 🇬🇧
 
 This project is a simple simulation of an artificial neuron using Streamlit and NumPy. It allows users to input values for the neuron’s inputs and weights, as well as select an activation function to calculate the neuron's output.
@@ -79,6 +84,11 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ## Español 🇪🇸
 
 Este proyecto es una simple simulación de una neurona artificial utilizando Streamlit y NumPy. Permite a los usuarios ingresar valores para las entradas y los pesos de una neurona, así como seleccionar una función de activación para calcular la salida de la neurona.
+
+## URL de proyecto
+
+Puedes acceder al proyecto en la siguiente URL:  
+[**Neuron Simulator URL**](https://simuladorneurona-david.streamlit.app/)
 
 ## Requisitos
 

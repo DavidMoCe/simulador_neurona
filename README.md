@@ -4,12 +4,12 @@
 - [English](#english-)
 - [Español](#español-)
 
----
-
 ## Project URL 🌐
 
 You can access the project at the following URL:  
 [**Neuron Simulator URL**](https://simuladorneurona-david.streamlit.app/)
+
+---
 
 ## English 🇬🇧
 

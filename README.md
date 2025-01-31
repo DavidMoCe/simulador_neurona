@@ -76,7 +76,7 @@ To run the application, navigate to the project folder and execute the following
 streamlit run app.py
 ```
 ## License 📜
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the [`LICENSE`](https://github.com/DavidMoCe/simulador_neurona/blob/main/LICENSE.txt) file for more details.
 
 
 ---
@@ -151,4 +151,4 @@ Para ejecutar la aplicación, navega a la carpeta del proyecto y ejecuta el sigu
 streamlit run app.py
 ```
 ## Licencia 📜
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [`LICENSE`](https://github.com/DavidMoCe/simulador_neurona/blob/main/LICENSE.txt) para más detalles.
